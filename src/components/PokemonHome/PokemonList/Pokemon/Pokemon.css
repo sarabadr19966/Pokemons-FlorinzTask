@@ -1,0 +1,35 @@
+.Pokemon {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    transition: all  ease-in-out 0.5s;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Pokemon:hover {
+    background-color: rgb(231, 229, 229);
+    
+}
+
+
+.PokemonImg {
+    height: 80px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.PokemonImg img{
+    height: fit-content;
+}
+
+
+.markColor {
+    color: #DD063B;
+    background-color: #FFCC06;
+}
+
